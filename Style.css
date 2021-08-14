@@ -1,0 +1,225 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: bsorder-box;
+}
+/*  */
+.Our-Team{
+    text-align: center;
+    line-height: 30px;
+    padding-top: 10px;
+    padding-bottom: 80px;
+}
+.Our-Team>h1{
+    padding-bottom: 15px;
+    font-weight: 900;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.Our-Team>p{
+    color: grey;
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.Member-Profile{
+    height: 400px;
+    width: 400px;
+}
+figure{
+    padding-bottom: 100px;
+}
+.Our-Container{
+    display: flex;
+
+}
+.Profile{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: purple;
+    border-radius: 50%;
+    margin: 0px 24px;
+}
+.Emp-Content{
+transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  overflow: hidden;
+}
+.Profile:hover .Member-Profile {
+    opacity: 0.3;
+}
+.Profile:hover .Emp-Content {
+    opacity: 1;
+}
+.Emp-details{
+    color: white;
+    font-size: 16px;
+    line-height: 40px;
+}
+.Emp-details >h2{
+    font-weight: bolder;
+}
+.Emp-details>p{
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+.Social-Media{
+      list-style-type: none;
+      display: flex;
+      justify-content: center;
+}
+.SL{
+      margin: 10px;
+      /* margin-bottom: 30px; */
+}
+.Icon{
+    color: white;
+    font-size: 30px;
+}
+/*  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer Css Start */
+footer{
+    background-color:#0B0B0B;
+    color: white;
+    text-decoration: none;
+}
+.Container{
+    display: flex;
+    padding: 90px;
+    justify-content:space-between;
+}
+/* Form Css Start */
+.Snd-btn{
+    padding: 15px 70px;
+    background-color:#800080;
+    color: #ffff;
+    margin-left: 20px;
+    border: none;
+    font-size: 20px;
+}
+.Form-Content input[type="text"],input[type="Email"],input[type="data"]{
+    border:none;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    margin: 20px;
+    background-color: #0B0B0B;
+    color: white;
+    width: 300px;
+    outline: none;
+    font-size: 15px;
+}
+.Form-Content input[type="data"]{
+    border:none;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    margin: 20px;
+    background-color:#0B0B0B;
+    color: white;
+    width: 650px;
+    outline: none;
+    font-size: 15px;
+}
+.Message-Box{
+    border:none;
+    border-bottom: 2px solid grey;
+    padding: 10px;
+    margin: 20px;
+    background-color: #0B0B0B;
+    color: white;
+    width: 650px;
+    outline: none;
+    font-size: 15px;
+}
+.Box-Content>p{
+    font-size: 20px;
+    margin-top: 25px;
+    color: grey;
+}
+.Box-Content>h5{
+     font-size: 17px;
+    color: #800080;
+    line-height: 50px;
+    margin-top: 25px;
+}
+.Footer-List{
+    list-style-type: none;
+    display: flex;
+    margin-top: 25px;
+}
+.FL{
+    margin: 10px;
+}
+/*Copy Right Css Start */
+.Copy-Right{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+}
+.Policy-List{
+    display: flex;
+    list-style-type: none;
+    margin-right: 40px;
+}
+.fl{
+    margin: 10px;
+}
+.Aboutus{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.copy{
+    margin-left: 40px;
+    color: grey;
+    font-size: 15px;
+}
+span{
+    color: white;
+    font-size: 20px;
+}
+.Rounded-Icon{
+    font-size: 30px;
+    background-color: #0B0B0B;
+    align-items: center;
+    color:white;
+}
